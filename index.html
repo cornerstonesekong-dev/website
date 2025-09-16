@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cornerstone English Center - ສູນການສຶກສາພາສາອັງກິດ</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans Lao', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        }
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-xl">CEC</div>
+                    <span class="text-xl font-bold text-gray-800">Cornerstone English Center</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-indigo-600 font-medium">ໜ້າຫຼັກ</a>
+                    <a href="#courses" class="text-gray-600 hover:text-indigo-600">ຫຼັກສູດ</a>
+                    <a href="#teachers" class="text-gray-600 hover:text-indigo-600">ຄູສອນ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600">ຕິດຕໍ່</a>
+                    <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition">ລົງທະບຽນ</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">ປັບປຸງທັກສະພາສາອັງກິດຂອງທ່ານ</h1>
+                    <p class="text-xl mb-8">ສູນການສຶກສາພາສາອັງກິດທີ່ດີທີ່ສຸດໃນນະຄອນຫຼວງວຽງຈັນ</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition">ລົງທະບຽນດຽວນີ້</a>
+                        <a href="#courses" class="border-2 border-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-indigo-600 transition">ສຶກສາຫຼັກສູດ</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <img src="http://static.photos/education/640x360/1" alt="Students learning English" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">ເປັນຫຍັງຄວນເລືອກພວກເຮົາ?</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-lg text-center" data-aos="fade-up">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="award" class="text-indigo-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">ຄູສອນມືອາຊີບ</h3>
+                    <p class="text-gray-600">ຄູສອນທີ່ມີປະສົບການ ແລະ ມີຄວາມຮູ້ດ້ານການສອນ</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="book" class="text-indigo-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">ຫຼັກສູດທີ່ມີປະສິດທິຜົນ</h3>
+                    <p class="text-gray-600">ຫຼັກສູດທີ່ອອກແບບມາເພື່ອຜູ້ຮຽນລາວ</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i data-feather="users" class="text-indigo-600 w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">ສະພາບແວດລ້ອມການຮຽນຮູ້</h3>
+                    <p class="text-gray-600">ຫ້ອງຮຽນທີ່ທັນສະໄໝ ແລະ ເໝາະສົມກັບການຮຽນ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">ຫຼັກສູດການສອນ</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md course-card transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/education/640x360/2" alt="General English" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ພາສາອັງກິດທົ່ວໄປ</h3>
+                        <p class="text-gray-600 mb-4">ສຳລັບຜູ້ເລີ່ມຕົ້ນ ເຖິງລະດັບກາງ</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-indigo-600 font-medium">3 ເດືອນ</span>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800">ລາຍລະອຽດ <i data-feather="arrow-right" class="inline"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md course-card transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/education/640x360/3" alt="Business English" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ພາສາອັງກິດທຸລະກິດ</h3>
+                        <p class="text-gray-600 mb-4">ສຳລັບຜູ້ທີ່ຕ້ອງການໃຊ້ງານໃນທຸລະກິດ</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-indigo-600 font-medium">4 ເດືອນ</span>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800">ລາຍລະອຽດ <i data-feather="arrow-right" class="inline"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md course-card transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/education/640x360/4" alt="IELTS Preparation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ການກຽມຕົວເສັງ IELTS</h3>
+                        <p class="text-gray-600 mb-4">ການຝຶກຝົນເພື່ອການສອບເສັງ IELTS</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-indigo-600 font-medium">6 ເດືອນ</span>
+                            <a href="#" class="text-indigo-600 hover:text-indigo-800">ລາຍລະອຽດ <i data-feather="arrow-right" class="inline"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">ຄູສອນຂອງພວກເຮົາ</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center" data-aos="fade-up">
+                    <div class="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-indigo-100">
+                        <img src="http://static.photos/people/320x240/1" alt="Teacher" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">ທ່ານ ສຸກສະຫວາດ</h3>
+                    <p class="text-gray-600 mb-2">ຄູສອນພາສາອັງກິດ</p>
+                    <p class="text-gray-500">ປະສົບການ 10 ປີ</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-indigo-100">
+                        <img src="http://static.photos/people/320x240/2" alt="Teacher" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">ທ່ານນາງ ວິລາ</h3>
+                    <p class="text-gray-600 mb-2">ຜູ້ຊ່ຽວຊານ IELTS</p>
+                    <p class="text-gray-500">ປະສົບການ 8 ປີ</p>
+                </div>
+                <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-indigo-100">
+                        <img src="http://static.photos/people/320x240/3" alt="Teacher" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">ທ່ານ ໄຊຍະລາດ</h3>
+                    <p class="text-gray-600 mb-2">ຜູ້ຊ່ຽວຊານພາສາອັງກິດທຸລະກິດ</p>
+                    <p class="text-gray-500">ປະສົບການ 12 ປີ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-indigo-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">ຄຳເຫັນຈາກນັກຮຽນ</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-sm" data-aos="fade-right">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="http://static.photos/people/200x200/1" alt="Student" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">ບຸນມີ</h4>
+                            <p class="text-gray-500 text-sm">ນັກຮຽນຫຼັກສູດ IELTS</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"ຂ້ອຍມີຄວາມສະດວກໃນການຮຽນທີ່ນີ້ຫຼາຍ ຄູສອນມີຄວາມຮູ້ ແລະ ໃຫ້ຄຳແນະນຳທີ່ດີຫຼາຍ"</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm" data-aos="fade-left">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+                            <img src="http://static.photos/people/200x200/2" alt="Student" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold">ສຸກສະຫວັນ</h4>
+                            <p class="text-gray-500 text-sm">ນັກຮຽນຫຼັກສູດທຸລະກິດ</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">"ຫຼັກສູດທຸລະກິດຊ່ວຍຂ້ອຍໃນການເຮັດວຽກຫຼາຍ ສາມາດນຳໃຊ້ໄດ້ຕົວຈິງ"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">ຕິດຕໍ່ພວກເຮົາ</h2>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h3 class="text-xl font-semibold mb-4">ຂໍ້ມູນຕິດຕໍ່</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                                <i data-feather="map-pin" class="text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">ທີ່ຢູ່</h4>
+                                <p class="text-gray-600">ບ້ານ ຈັນທະບູລີ, ເມືອງ ຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                                <i data-feather="phone" class="text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">ໂທລະສັບ</h4>
+                                <p class="text-gray-600">+856 20 1234 5678</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-4">
+                                <i data-feather="mail" class="text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">ອີເມວ</h4>
+                                <p class="text-gray-600">info@cornerstone-laos.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <h3 class="text-xl font-semibold mb-4">ສົ່ງຂໍ້ຄວາມ</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <input type="text" placeholder="ຊື່ ແລະ ນາມສະກຸນ" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="ອີເມວ" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <input type="tel" placeholder="ໂທລະສັບ" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        </div>
+                        <div>
+                            <textarea rows="4" placeholder="ຂໍ້ຄວາມ" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition w-full">ສົ່ງຂໍ້ຄວາມ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Cornerstone English Center</h3>
+                    <p class="text-gray-400">ສູນການສຶກສາພາສາອັງກິດທີ່ດີທີ່ສຸດໃນນະຄອນຫຼວງວຽງຈັນ</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">ລິ້ງຕິດຕໍ່</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white">ໜ້າຫຼັກ</a></li>
+                        <li><a href="#courses" class="text-gray-400 hover:text-white">ຫຼັກສູດ</a></li>
+                        <li><a href="#teachers" class="text-gray-400 hover:text-white">ຄູສອນ</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">ຕິດຕໍ່</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">ຊ່ອງທາງສື່ສານ</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-indigo-600">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-400">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center hover:bg-red-600">
+                            <i data-feather="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">ຈອງຫ້ອງຮຽນ</h4>
+                    <p class="text-gray-400 mb-4">ສົ່ງຂໍ້ມູນຂອງທ່ານເພື່ອຮັບຂໍ້ມູນເພີ່ມເຕີມ</p>
+                    <div class="flex">
+                        <input type="email" placeholder="ອີເມວ" class="px-4 py-2 rounded-l-md focus:outline-none text-gray-800 w-full">
+                        <button class="bg-indigo-600 px-4 py-2 rounded-r-md hover:bg-indigo-700">
+                            <i data-feather="send"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>© 2025 Cornerstone English Center. ສະຫງວນລິຂະສິດ.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
+
+
+
